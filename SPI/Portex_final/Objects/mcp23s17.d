@@ -1,0 +1,14 @@
+.\objects\mcp23s17.o: MCP23S17.c
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\mcp23s17.o: C:\Programs\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\mcp23s17.o: C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h
+.\objects\mcp23s17.o: tm4c123gh6pm.h
+.\objects\mcp23s17.o: SPI_Driver.h
+.\objects\mcp23s17.o: systick_timer.h
+.\objects\mcp23s17.o: MCP23XX.h
