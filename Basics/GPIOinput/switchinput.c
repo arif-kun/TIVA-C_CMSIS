@@ -33,7 +33,7 @@ int main()			//for switch2
 	
 	while(1)
 	{
-		if(!(GPIOF->DATA & (1)))		//check if PF4 is pulled to ground ie switch pressed
+		if(!(GPIOF->DATA & (1)))		//check if PF0 is pulled to ground ie switch pressed
 		{
 			GPIOF->DATA |= (0x08);
 		}
