@@ -1,0 +1,12 @@
+.\objects\i2c_driver.o: src\I2C_Driver.c
+.\objects\i2c_driver.o: .\inc\tm4c123gh6pm.h
+.\objects\i2c_driver.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\i2c_driver.o: C:\Programs\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2c_driver.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\i2c_driver.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\i2c_driver.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\i2c_driver.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\i2c_driver.o: C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h
+.\objects\i2c_driver.o: .\inc\I2C_Driver.h
+.\objects\i2c_driver.o: C:\Programs\Keil\ARM\ARMCC\Bin\..\include\tgmath.h
+.\objects\i2c_driver.o: C:\Programs\Keil\ARM\ARMCC\Bin\..\include\math.h
