@@ -31,7 +31,7 @@ void SPI_init(uint8_t cpha, uint8_t cpol, uint8_t data_size)
 
 /*==================================================================================================================*/
 
-void SPI_transmit(uint16_t data)
+void SPI_transmit(uint8_t data)
 {
 	while(!(SSI1->SR & SSI_SR_TNF));			//wait and check if transmit FIFO not full from any previous operation
 	
