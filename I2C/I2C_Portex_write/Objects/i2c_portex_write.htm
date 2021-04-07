@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\i2c_portex_write.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\i2c_portex_write.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Mar 25 17:20:30 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Tue Mar 30 23:38:39 2021
 <BR><P>
 <H3>Maximum Stack Usage =         96 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1361,13 +1361,13 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_init
 </UL>
 
-<P><STRONG><a name="[a1]"></a>i2c_write</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, i2c_driver.o(i.i2c_write))
+<P><STRONG><a name="[a1]"></a>i2c_write</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, i2c_driver.o(i.i2c_write))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = i2c_write
 </UL>
 <BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[89]"></a>main</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[89]"></a>main</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = main &rArr; I2C_init &rArr; i2c_tpr &rArr; __hardfp_powf &rArr; __set_errno
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delayms

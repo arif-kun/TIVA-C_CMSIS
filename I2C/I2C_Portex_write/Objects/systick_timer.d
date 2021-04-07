@@ -1,6 +1,5 @@
 .\objects\systick_timer.o: src\systick_timer.c
-.\objects\systick_timer.o: C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h
-.\objects\systick_timer.o: C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h
+.\objects\systick_timer.o: .\inc\tm4c123gh6pm.h
 .\objects\systick_timer.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
 .\objects\systick_timer.o: C:\Programs\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\systick_timer.o: C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h

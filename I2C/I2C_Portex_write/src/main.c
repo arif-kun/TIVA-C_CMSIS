@@ -30,7 +30,7 @@ int main()
 		i2c_write(IO_A, START);			//generate START condition and write to IO_A register
 		i2c_write(led++, STOP);			//write value of led variable and then generate STOP condition
 		
-		delayms(250);
+		delayms(500);
 		
 	}
 	

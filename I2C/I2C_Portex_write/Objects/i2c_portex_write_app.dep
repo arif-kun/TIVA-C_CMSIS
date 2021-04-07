@@ -1,8 +1,7 @@
 Dependencies for Project 'i2c_portex_write', Target 'app': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\src\I2C_Driver.c)(0x605C706E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\inc-I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\i2c_driver.o --omf_browse .\objects\i2c_driver.crf --depend .\objects\i2c_driver.d)
-I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EC1BE)
-I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FB0F4)
+F (.\src\I2C_Driver.c)(0x605CB65E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\inc-I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\i2c_driver.o --omf_browse .\objects\i2c_driver.crf --depend .\objects\i2c_driver.d)
+I (.\inc\tm4c123gh6pm.h)(0x605CAD49)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EF44A)
 I (C:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E51DA)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
@@ -10,13 +9,11 @@ I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EF44A)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6B2CE)
-I (.\inc\tm4c123gh6pm.h)(0x600AF129)
-I (.\inc\I2C_Driver.h)(0x60123A3D)
+I (.\inc\I2C_Driver.h)(0x605C7E70)
 I (C:\Programs\Keil\ARM\ARMCC\include\tgmath.h)(0x5E8E51DA)
 I (C:\Programs\Keil\ARM\ARMCC\include\math.h)(0x5E8E51DA)
-F (.\src\main.c)(0x605C7904)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\inc-I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EC1BE)
-I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FB0F4)
+F (.\src\main.c)(0x60636925)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\inc-I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\inc\tm4c123gh6pm.h)(0x605CAD49)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EF44A)
 I (C:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E51DA)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
@@ -24,13 +21,11 @@ I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EF44A)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6B2CE)
-I (.\inc\tm4c123gh6pm.h)(0x600AF129)
 I (.\inc\systick_timer.h)(0x600ADFBE)
-I (.\inc\I2C_Driver.h)(0x60123A3D)
+I (.\inc\I2C_Driver.h)(0x605C7E70)
 I (.\inc\MCP23XX.h)(0x605C7427)
-F (.\src\systick_timer.c)(0x600E3FF3)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\inc-I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\systick_timer.o --omf_browse .\objects\systick_timer.crf --depend .\objects\systick_timer.d)
-I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EC1BE)
-I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FB0F4)
+F (.\src\systick_timer.c)(0x605CAEB2)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\inc-I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\systick_timer.o --omf_browse .\objects\systick_timer.crf --depend .\objects\systick_timer.d)
+I (.\inc\tm4c123gh6pm.h)(0x605CAD49)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EF44A)
 I (C:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E51DA)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
@@ -39,10 +34,10 @@ I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EF44A)
 I (C:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6B2CE)
 I (.\inc\systick_timer.h)(0x600ADFBE)
-F (.\inc\I2C_Driver.h)(0x60123A3D)()
+F (.\inc\I2C_Driver.h)(0x605C7E70)()
 F (.\inc\MCP23XX.h)(0x605C7427)()
 F (.\inc\systick_timer.h)(0x600ADFBE)()
-F (.\inc\tm4c123gh6pm.h)(0x600AF129)()
+F (.\inc\tm4c123gh6pm.h)(0x605CAD49)()
 F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6B2CE)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
 F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x550A34A2)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\src -I .\inc-I.\RTE\_app-IC:\Users\arifs\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\arifs\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\system_tm4c123.o --omf_browse .\objects\system_tm4c123.crf --depend .\objects\system_tm4c123.d)
 I (C:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E51DA)
