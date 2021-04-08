@@ -15,22 +15,21 @@ int main()
 	{
 		
 		GPIOF->DATA |= 0x02;				//RED
-
-		sysdelay(100);
+		sysdelay(250);
 		GPIOF->DATA &=~ 0x02;
-		sysdelay(100);
+		sysdelay(250);
 		
 		
 		GPIOF->DATA |= 0x04;			//BLUE
-		sysdelay(100);
+		sysdelay(250);
 		GPIOF->DATA &=~ 0x04;
-		sysdelay(100); 
+		sysdelay(250); 
 		
 		
 		GPIOF->DATA |= 0x08;			//GREEN
-		sysdelay(100);
+		sysdelay(250);
 		GPIOF->DATA &=~ 0x08;
-		sysdelay(100);
+		sysdelay(250);
 
 	
 		
