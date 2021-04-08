@@ -148,7 +148,7 @@ $(BUILD_DIR):
 # clean up
 #######################################
 clean:
-	@echo Cleaning up...
+	@echo Cleaning up....
 	@-rm -fR $(BUILD_DIR)
 
 #######################################
