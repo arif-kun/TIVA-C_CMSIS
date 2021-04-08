@@ -1,8 +1,6 @@
 #include "TM4C123GH6PM.h"
+#include "systick_timer.h"
 
-void delay(int ms);
-
-void sysdelay(int count);
 
 int main()
 {
@@ -15,42 +13,27 @@ int main()
 	{
 		
 		GPIOF->DATA |= 0x02;				//RED
-		sysdelay(250);
+		delayms(250);
 		GPIOF->DATA &=~ 0x02;
-		sysdelay(250);
+		delayms(250);
 		
 		
 		GPIOF->DATA |= 0x04;			//BLUE
-		sysdelay(250);
+		delayms(250);
 		GPIOF->DATA &=~ 0x04;
-		sysdelay(250); 
+		delayms(250); 
 		
 		
 		GPIOF->DATA |= 0x08;			//GREEN
-		sysdelay(250);
+		delayms(250);
 		GPIOF->DATA &=~ 0x08;
-		sysdelay(250);
+		delayms(250);
 
-	
-		
-	
 	}
 		
+	return 0;
 		
 	
 }
 
 
-void sysdelay(int count)
-{
-	SysTick->LOAD = SystemCoreClock/1000 -1;
-	SysTick->VAL = 0;
-	SysTick->CTRL = SysTick_CTRL_ENABLE_Msk | SysTick_CTRL_CLKSOURCE_Msk; //0101
-	
-	for(int i=0; i<count; i++)
-	{
-		while(!(SysTick->CTRL & SysTick_CTRL_COUNTFLAG_Msk));
-	}
-
-	SysTick->CTRL=0;
-}

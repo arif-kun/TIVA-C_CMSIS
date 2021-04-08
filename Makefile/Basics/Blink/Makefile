@@ -156,7 +156,7 @@ clean:
 #######################################
 flash:
 	@echo Flashing...
-	@-openocd -f board/ek-tm4c123gxl.cfg -c "program $(BUILD_DIR)/$(TARGET).elf verify reset exit"
+	@-openocd -f board/ti_ek-tm4c123gxl.cfg -c "program $(BUILD_DIR)/$(TARGET).elf verify reset exit"
 
 #######################################
 # dependencies
