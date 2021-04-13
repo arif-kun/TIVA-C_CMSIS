@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/portex_i2c_write.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "TM4C123GH6PM",
+            "configFiles": [
+                "board/ti_ek-tm4c123gxl.cfg"
+            ],
+            "svdFile": "./TM4C123GH6PM.svd"
+        }
+    ]
+}
