@@ -15,8 +15,8 @@ int main()
 	/*====================================================================================================*/
 	CS_LOW;
 	
-	SPI_transmit(0x40);
-	SPI_transmit(IODIRA);
+	SPI_transmit(0x40);						//device address
+	SPI_transmit(IODIRA);						//io direction A
 	SPI_transmit(0x00);
 	
 	CS_HI;
