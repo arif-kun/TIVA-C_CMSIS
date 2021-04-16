@@ -28,7 +28,7 @@ int main()
 		CS_LOW;
 		
 		SPI_transmit(0x40);
-		SPI_transmit(IO_A);					//IO A
+		SPI_transmit(IO_A);	
 		SPI_transmit(led++);
 		
 		CS_HI;
