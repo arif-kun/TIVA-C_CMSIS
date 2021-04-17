@@ -1,5 +1,4 @@
 #include "TM4C123GH6PM.h"
-
 #include "systick_timer.h"
 #include "SPI_Driver.h"
 #include "MCP23XX.h"
@@ -27,8 +26,8 @@ int main()
 	{
 		CS_LOW;
 		
-		SPI_transmit(0x40);				//device address
-		SPI_transmit(IO_A);					//IO A
+		SPI_transmit(0x40);		
+		SPI_transmit(IO_A);		
 		SPI_transmit(led++);
 		
 		CS_HI;
