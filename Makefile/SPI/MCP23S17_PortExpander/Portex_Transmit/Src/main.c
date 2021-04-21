@@ -14,9 +14,9 @@ int main()
 	/*====================================================================================================*/
 	CS_LOW;
 	
-	SPI_transmit(0x40);
-	SPI_transmit(IODIRA);
-	SPI_transmit(0x00);					
+	SPI_transmit(0x40);				//device opcode to write
+	SPI_transmit(IODIRA);			//Access IODIRA register to select direction of PortA on Port Expander
+	SPI_transmit(0x00);				//set direction of every pin on port A to output	
 	
 	CS_HI;
 	
