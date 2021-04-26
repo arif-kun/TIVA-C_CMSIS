@@ -13,7 +13,6 @@
             ],
 
             "intelliSenseMode": "gcc-arm",
-            //Change compiler path below if needed
             "compilerPath": "${env:ARMGCC_DIR}/arm-none-eabi-gcc.exe",
             "compilerArgs": [
                 "-mcpu=cortex-m4",
